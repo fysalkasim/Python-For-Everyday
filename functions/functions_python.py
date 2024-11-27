@@ -5,9 +5,9 @@
 # help(zip())
 
 
-def functionname():
-    """Creating a function that welcomes to python"""
-    return "Welcome to python"
+# def functionname():
+#     """Creating a function that welcomes to python"""
+#     return ("Welcome to python")
 
 # functionname()
 
