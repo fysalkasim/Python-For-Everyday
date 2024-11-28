@@ -38,7 +38,7 @@
 
 
 # print(slicer[:])
-thistring = "python is a programming language"
+# thistring = "python is a programming language"
 # print(thistring[12:23])
 # print(thistring[14:23:2])
 # print(thistring[::])
@@ -84,3 +84,79 @@ thistring = "python is a programming language"
 # thisstring = thisstring.upper()
 # print(thisstring)
 # print(thisstring.lower())
+
+
+
+
+
+
+
+
+
+#Strings    Sequnce 'Single', "double",'''Triple single''',"""Triple double"""
+
+#Python    #python object oriented programming
+
+
+# name  = "Hridya"
+# course = "Data Analytics"
+# print(name,course,"2024",sep = "______",end="______")
+# print("Glad i am learning python: ")
+
+# my_msg = """I am eager to learn python in this year
+# currently learned the basic so far i am curious to know more"""
+
+# print(my_msg)
+# name  = "Hridya"
+# course = "Data Analytics"
+# # print(name[::-2])   #Excluding the end point or index
+
+
+# name = "Dridya"    #Immutable
+# print(name)
+
+# del name
+# print(name)
+# name  = "Hridya"
+# course = "Data Analytics"
+# print(65+6)
+# print(name+course)  #concatenation of strings + 
+# print(name*5)   #repetition of string using * operator 
+
+# print("z" not in name)
+
+# str = "They said, \"Hello what's going on?\""   #Escaping sequence or charaetcter
+# print(str)
+
+# print("Python1\
+# Python2\
+# Python3")
+
+# print("Hello\b World")
+ 
+# print(r"Hello \n\t\n\t\t\tWorld!")   #r stands for Raw
+# var1 = 10
+# var2 = 1.290
+# var3 = "Devansh"
+# print("Integer: %d\nFloat:%f\nString:%s"% (var1,var2,var3) ) 
+
+#Python 3.6 fstring string formating 
+
+# print(f"Integer:{var1}\nFloat:{var2}\nString:{var3}")
+
+# name  = "Hridya"
+# course = "Data Analytics"
+
+# print(name.capitalize())
+
+# def mov():
+#     name = input("Enter the name: ")
+#     movrate={}
+#     for i in range(1,4):
+#         movie = input(f"Enter the favorite movie:{i} ")
+#         rating= float(input(f"Enter the rating for the {movie}:"))
+#         movrate[movie]=rating
+#     print(f"Hey{name}")
+#     for m,r in movrate.items():
+#         print(f"The {m} got your {r} rating")
+# mov()

@@ -33,7 +33,39 @@
 #         print("A is present")
 
 
-print("Hello world")  #010101001000010101010010000000 a=1010101010000001111001 
+# print("Hello world")  #010101001000010101010010000000 a=1010101010000001111001 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Conditional statements in python
+# if elif else
+number  = 10
+if number%3 == 0:      #tru or false boolean 
+    print("The number is even")
+# if number%2 != 0:
+#     print("The number is odd")
+elif number%7 == 0:
+    print("The number is divisible by 5")
+else:
+    print("The number is not divisible by 2 or 5")
+
+
+
+
+
+
+
 
 
 
