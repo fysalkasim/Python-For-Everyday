@@ -1,0 +1,3 @@
+read and write is the access mode
+secondline
+thirdline

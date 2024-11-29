@@ -18,17 +18,17 @@
 
 
 
-pin = 4368
-count = 0
-while True:    #condition always true
-    num = int(input("Enter the number: "))
-    count+= 1
-    if count ==3:
-        print("Account blocked")
-        break
-    if num == pin:
-        print("Successfully logined")
-        break
-    else:
-        print("Try again!!")
+# pin = 4368
+# count = 0
+# while True:    #condition always true
+#     num = int(input("Enter the number: "))
+#     count+= 1
+#     if count ==3:
+#         print("Account blocked")
+#         break
+#     if num == pin:
+#         print("Successfully logined")
+#         break
+#     else:
+#         print("Try again!!")
 
