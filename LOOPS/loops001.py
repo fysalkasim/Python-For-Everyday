@@ -116,4 +116,21 @@
 # while num > 0:
 #     print(num)
 #     num -= 1
+# sequence = "Python"
+# for iterating_variable in sequence:
+#     print("Hi welcome")    #length of the sequence
 
+# numbers = "Hi all welcome to the python programming"
+# # for number in
+#     # print(number)
+
+# for i in range(len(numbers)):
+#     print(i)
+
+# for i in range(4):           #i = 0   #i = 0 
+#     for j in range(4):       #j = 0   #j = 1
+#         print(j)             #print(0) #print(1)   
+# 
+# 
+#  
+#   
