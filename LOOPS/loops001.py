@@ -133,4 +133,39 @@
 # 
 # 
 #  
-#   
+#  
+# for iterating_variable in sequence://
+
+# while loop:   sequnce (not availble)
+# Iteration number is unknown
+
+# while condition:      #continous if condtion
+#     statement     
+
+# if :
+#     statement
+# i = 0
+# while i<8:    #Continously checking the condition given
+#     print("Python")
+#     i = i+1   
+# else:
+#     print("Hi")
+
+# round = 0
+# while round < 30:
+#     round+= 1
+#     if round == 10:
+#         pass   #place holder
+#     else:
+#         print("Current round: ", round )
+
+# def myfunc():
+#     pass
+
+
+# strings = "Apple,Banana,Cherry"
+# splitted = strings.split(",")
+
+# print(splitted)
+# var = " and "
+# print(var.join(splitted))
