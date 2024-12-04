@@ -169,3 +169,19 @@
 # print(splitted)
 # var = " and "
 # print(var.join(splitted))
+
+
+
+
+
+# str = "Python"
+# for i in str:
+#     print(i,"good",sep="",end="")
+
+
+# for i in range(1,10,3):
+#     print(i)
+
+# for i in range(1,5):    
+#     for j in range(2):
+#         print(i)

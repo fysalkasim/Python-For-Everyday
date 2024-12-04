@@ -28,3 +28,38 @@
 
 # if number==45 and number>10000:
 #     print("number is equals to 45 greater than 10000")
+
+
+#condition
+#if elif else
+
+# x = 3
+# if x>5:    #True 
+#     print("X is greater than 5")
+
+# if condition:
+#     statement
+
+# x = 0     
+# if True or False:    #True 
+#     print("So true")
+
+# # print(bool(2))
+
+#Functions
+#print()
+#type()
+#input()
+#int()
+#str()
+#bool()
+#float()
+
+
+# year = int(input("Enter current year: "))
+# if year>2023:
+#     print("Now the year passed year 2023!!")
+# elif year>2022:
+#     print("Now the year passed the 2022!!")
+# else:
+#     print("The",year,"is too old")
