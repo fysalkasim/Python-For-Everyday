@@ -110,26 +110,68 @@
 # print(s.age)
 
 
-class Animal:
-    def __init__(self,age):
-        self.age = age
-        self.kingdom = "Animalia"
-    def speak(self):
-        print("Animal Speaking")
-    def jump(self):
-        print("Jumping high")
-#The child class Dog inherits the base class Animal
-class Dog(Animal):
-    def bark(self):
-        print(f"dog barking and is from kingdom {self.kingdom}")
-#The child class Dogchild inherits another child class Dog
-class DogChild(Dog):
-    def eat(self):
-        print(f"Eating bread...and has an age of {self.age}")
-    def jump(self):
-        print("Jumping lower")   
-d = DogChild(22)
-d.bark()
-d.speak()
-d.eat()
-d.jump()
+# class Animal:
+#     def __init__(self,age):
+#         self.age = age
+#         self.kingdom = "Animalia"
+#     def speak(self):
+#         print("Animal Speaking")
+#     def jump(self):
+#         print("Jumping high")
+# #The child class Dog inherits the base class Animal
+# class Dog(Animal):
+#     def bark(self):
+#         print(f"dog barking and is from kingdom {self.kingdom}")
+# #The child class Dogchild inherits another child class Dog
+# class DogChild(Dog):
+#     def eat(self):
+#         print(f"Eating bread...and has an age of {self.age}")
+#     def jump(self):
+#         print("Jumping lower")   
+# d = DogChild(22)
+# d.bark()
+# d.speak()
+# d.eat()
+# d.jump()
+
+# '',"",""""""
+
+
+# language = "Python"
+
+# print(type(len(language)))
+
+# is_okey = None
+# print(type(is_okey))
+
+# if is_okey:
+#     print("HI")
+
+# my_message = """hi all
+# er are going to study about strings in python"""  #docstring
+
+#syntax
+#nameerror
+#typerror
+#indexError
+
+# str = "HELLO_WELCOME_TO_PYTHON"
+# # print(str[0])
+
+# # p#python indexing starts from 0 to len(objet)-1 
+# #python negative indexing starts from -1 to -len(objet)
+
+# print(str[0:13:3])
+
+
+# str = "INTERNATIONAL"
+# print(str[::-2]) 
+
+# for i in range(10,1,-1):
+#     print("Current number,",i)
+
+# str = "HELLO"
+# str = "hELLO" #Reassignemer
+# print(str)
+
+#strings are immutable
