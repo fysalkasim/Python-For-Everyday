@@ -187,5 +187,5 @@ def student(firstname, lastname, course = "Data science"):
 # z = list(map(lambda a :a**2,x))
 # print(z)
 
-name = set()
-print(type(name))
+# name = set()
+# print(type(name))
