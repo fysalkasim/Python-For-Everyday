@@ -67,3 +67,44 @@
 # print("Module:",s.__module__)
 # print("Name:",Student.__name__)
 # print("Base:",Student.__bases__)
+
+# m = "dasd"
+# print(isinstance(m,int))
+
+
+# num = 10
+# num2 = 0
+
+# if num2 == 0:
+#     pass
+# else:
+#     print(num/num2)  #Exception
+
+# try:
+#     a = int(input("Enter a:"))
+#     b = int(input("Enter b:"))
+#     c = a/b
+# except (ZeroDivisionError,ValueError):
+#     print("Happy!!")
+
+# else:
+#     print("result:",c)
+
+# while True:
+#     try:
+#         age = int(input("Enter the age:"))
+#         if(age<18):
+#             raise ZeroDivisionError("U18")
+#         else:
+#             print("the age is valid")
+#             break
+#     except Exception as E:
+#         print("The age is not valid",E)
+
+# even = []
+# for i in range(1,25):
+#     if i%2==0:
+#         even.append(i)
+# print(even)
+
+

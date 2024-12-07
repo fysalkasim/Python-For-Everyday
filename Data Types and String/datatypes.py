@@ -144,7 +144,7 @@
 
 # print(f"Integer:{var1}\nFloat:{var2}\nString:{var3}")
 
-# name  = "Hridya"
+# name  = "Hrnidya"
 # course = "Data Analytics"
 
 # print(name.capitalize())
@@ -160,3 +160,144 @@
 #     for m,r in movrate.items():
 #         print(f"The {m} got your {r} rating")
 # mov()
+
+
+# names = "Python"
+# names = "Python"  #string data type
+
+# print(type(names))
+# #0 - len(obj) - 1
+# #-1 -len(obj)
+# print(names[len(names)*-1])
+# print(names[-4::2])
+
+# name2 = "Kython"  #immutable data type
+# print(names*5)
+
+
+# str = "They said, \"Hello what's going on?\""
+# print(str)
+
+# var1 = 10
+# var2 = 1.290
+# var3 = "Devansh"
+# print(f"Integer: {var1*10}\n\tFloat:{var2*10}\nString:{var3}")
+
+# thislist = []
+# deleted= thislist.pop()
+# print(deleted)
+
+
+
+# thislist = ["Orange", "mango", "kiwi", "pineapple", "banana"]
+# thislist.sort()
+# print(thislist)
+
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# number = [9,5,2]
+
+# newlist = [i.upper() for i in fruits if len(i)>5]
+# print(newlist)
+
+
+# pple = ("sds",)
+# print(type(pple))
+
+# fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+# (green, *yellow, red) = fruits
+# print(green)
+# print(yellow)
+# print(red)
+
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# x = thisdict["model"]
+# print(x)
+
+# 
+
+# map,filter,enumerate
+# import random
+# name = ["Akarsh","Fahima","Aaziya"]
+# x = random.choice(name)
+# print(x)
+
+
+
+
+
+
+
+
+
+# language = "Python"
+# version = "3.10"
+
+# full = language*5
+# print(full)
+
+
+# print("""They said, "Hello what's going on?\"""")
+
+# print("Python1 \
+# Python2 \
+# # Python3")
+
+# print('zgfsdhjgs\'')
+
+# print("Hello \bWorld")
+
+# print("""asjhdgjshgfjsdfhjsd
+#   asdsf
+#       sdfsdf
+#       sdfsdfsd
+#       fsdfsdf
+#       ds   """)
+
+# print("Hi \nWorld")
+# print(r"Hello\t\n\bWorld!")
+
+# var1 = 10
+# var2 = 1.290
+# var3 = "Devansh"
+# print("Integer: %d\nFloat:%f\nString:%s" % (var1,var2,var3))
+
+#f string
+
+# day = 6
+# month = "December"
+# year = 2024
+
+# print(f"after one year the day will be is {day//2}th {month} {year+1}")  #python 3.6
+
+
+
+# str = "Hello python"
+# str2 = str.count('o',5)
+# # Displaying result
+# print("occurences:", str2)
+
+# str = "Weltcome to the python"
+# # Calling function
+# print(str.find("qq"))
+
+
+# str = "Java"
+# str2 = "C#"
+# # Calling function
+# str3 = "{} and {} both are programming languages"
+
+# print(str3.format(str,str2))
+# # Displaying result)
+
+
+# string = "  "
+
+# print(string.isspace())
+
+# print(string.title().istitle())
+
+# print(titlestring.istitle())

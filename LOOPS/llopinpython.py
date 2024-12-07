@@ -71,3 +71,38 @@
 #             break
 #     if prime:
 #         print(i)
+
+
+
+# sequence = "Python"
+# for iterating_var in sequence:
+#     print(iterating_var)
+
+# course = "Datascience"
+# year = 2024
+# month = "December"
+
+# print(course,year)
+# # print(month)
+
+# for number in range(1,11,2):
+#     print("jhjhjh")
+
+
+# for i in range(2):
+#     print("The iteration is number in outer loop is",i)
+#     for j in range(5):
+#         print("The iteration is number in inner loop is",j)
+
+# i=0
+# while i<8:
+#     print(i)
+#     i = i+1
+
+# 
+# for i in range(0,5):
+#     print(i)
+# else:
+#     print("for loop is exhausted")
+
+

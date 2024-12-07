@@ -137,3 +137,55 @@
 # print(mytripller(2))
 
 
+
+#function definition
+# def hello():
+#     return "hello world...bye"
+
+# # function calling
+# msg = hello()
+
+# print(int(input("Enter number")))
+
+# def sum(a, b):
+#     return a + b
+
+# sum(2,5)
+
+# def nameAge(name, age):
+#     print("Hi, I am", name)
+#     print("My age is ", age)
+# nameAge("Fysal")
+
+
+def student(firstname, lastname, course = "Data science"):
+    #  print(firstname, lastname, 'studies in', standard, 'Standard')
+    print('Your are ',firstname,lastname,"right!","And you are studying",course)
+# student("Fysal","Kasim")
+# student(lastname="Kasim",firstname="Fysal")
+
+# student("Fysal","kasim")
+
+# def printme(*names):
+#     for name in names:
+#         print(name)
+
+# printme("john","David","smith","nick")
+
+# name = "Data"
+
+# def printname():
+#     name = "Python"
+#     print(name)
+
+# printname()
+
+# print(name)
+
+
+# x = [1,2,3,4]
+# z = list(map(lambda a :a**2,x))
+# print(z)
+
+name = set()
+print(type(name))
