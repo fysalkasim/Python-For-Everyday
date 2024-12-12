@@ -123,33 +123,33 @@ import numpy as np
 
 
 
-a = np.array([5,2,6,2,7,5,6,8,2,9])
+# a = np.array([5,2,6,2,7,5,6,8,2,9])
 #[2 5 6 7 8 9]
 # print('First array:')
 # print(a)
 # print('\n')
 
-print('Unique values of first array:')
-u = np.unique(a)
-print(u)
-print('\n')
+# print('Unique values of first array:')
+# u = np.unique(a)
+# print(u)
+# print('\n')
 
-print('Unique array and Indices array:')
-u,indices = np.unique(a, return_index = True)
-print(indices)
-print('\n')
+# print('Unique array and Indices array:')
+# u,indices = np.unique(a, return_index = True)
+# print(indices)
+# print('\n')
 
 # print('We can see each number corresponds to index in original array:')
 # print(a)
 # print('\n')
 
-print('Inverses of unique array:')
-u,inverse = np.unique(a,return_inverse = True)
+# print('Inverses of unique array:')
+# u,inverse = np.unique(a,return_inverse = True)
 # print(u)
 # print('\n')
 
 # print('Indices are:')
-print(inverse)
+# print(inverse)
 # print('\n')
 
 # print('Reconstruct the original array using indices:')
@@ -160,3 +160,8 @@ print(inverse)
 # u,indices = np.unique(a,return_counts = True)
 # print(u)
 # print(indices)
+
+# a = np.array([[1,2,3],[4,5,6]])
+# print(a)
+# b = np.split(a,[5,6],0)
+# print(b)

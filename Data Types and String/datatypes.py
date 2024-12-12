@@ -263,7 +263,7 @@
 # var1 = 10
 # var2 = 1.290
 # var3 = "Devansh"
-# print("Integer: %d\nFloat:%f\nString:%s" % (var1,var2,var3))
+# print(f"Integer: {var1*10}   Float:{var2}   String:{var3.upper()}")
 
 #f string
 
@@ -301,3 +301,40 @@
 # print(string.title().istitle())
 
 # print(titlestring.istitle())
+
+# str = "HELLO"
+# str = "hELLO"    #error
+# print(str*5)
+# for i in range(5):
+#     print(str,end="")
+
+# "They said, \"Hello what's going on?\""  
+
+# print("Python1 \
+# Python2 \
+# Python3")
+
+
+# year = r"Happy\b \nnew \tyear"
+# print(year)
+
+
+
+
+str = "HELLO PYTHON"
+# print(type(str))
+# print(len(str))
+# print(str.find("PYz"))  
+
+
+# str = "--"
+# # Calling function
+# str2 = str.join(["a","b","c"])
+# # Displaying result
+# # print(str)
+# print(str2)
+
+
+# print(list((1,2,3)))
+# print(list([5,6,4]))
+# print(list("Python"))
