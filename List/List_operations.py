@@ -159,8 +159,50 @@
 # Expected Output:
 # ['python', 'pylon']
 
-import re
-string = "The scores were 12, 34, and 56"    
-x = re.findall("[0-9][0-9]",string)
-print(x)
+# import re
+# string = "The scores were 12, 34, and 56"    
+# x = re.findall("[0-9][0-9]",string)
+# print(x)
+
+
+
+
+# thislist = [[1,2,3], "banana", "cherry"]
+# for x in thislist:
+#   for i in x:
+#     print(i)
+
+
+
+
+# thislist = [98,6,2,65,4,8,65,1,5,8,7,53,2,1,5,56,6,2,1,45]
+# sortd_list = sorted(thislist)
+# print(sortd_list)
+# # thislist.sort()
+# print(thislist)
+
+
+# thislist = ["1", "mango", "kiwi", "pineapple", "banana"]
+# thislist.sort(reverse = True)
+# print(thislist)
+
+# thislist = ["apple", "banana", "cherry"]
+# mylist = thislist
+# mylist.pop()
+# print(mylist,thislist)
+
+
+
+# thislist = "HHII"
+
+# print(thislist*3)
+
+
+numbers = [1,2,3,4,5,6]
+numbers_mul_5 = [number * 5 for number in numbers if number % 2 == 0 ]
+print(numbers_mul_5)
+# for number in numbers:
+#     numbers_mul_5.append(number*5)
+#     # print(numbers_mul_5)
+# print(numbers_mul_5)
 

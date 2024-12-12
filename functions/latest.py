@@ -189,3 +189,53 @@ def student(firstname, lastname, course = "Data science"):
 
 # name = set()
 # print(type(name))
+
+
+
+
+
+
+
+# print()
+# type()
+# len()
+# sorted()
+# int()
+# input()
+
+
+# f(x) = x+5*2-15/53
+
+# f(5) = 10
+# f(6) = 11
+
+def hello():
+    return "hello world...bye"
+
+# print(type(tuple(list(range(int(len(input())))))))
+
+
+hello()
+
+# print("Hello world!!","Python","is great",)
+
+
+# def welcome(name,year, course= "Data"):
+#     print(f"Your name is {name} and you are living in {year} and you are studying {course}!!!")
+
+# welcome("Hridya",2025)
+
+# def printme(*names):    #tuples
+#     for i in names:
+#         print(i)
+
+# printme("john","Hridya")
+
+
+# printme(10,20)
+
+# def food(**kwargs):
+#     for i,j in kwargs.items():
+#         print(j)
+# # food(a="Apple")
+# food(fruits="Orange", Vagitables="Carrot")
