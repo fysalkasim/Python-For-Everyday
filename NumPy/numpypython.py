@@ -1,4 +1,4 @@
-import numpy as np
+# import numpy as np
 # # import time
 # # a = np.array([1,2,3])  #one dimensional. #two dimesional
 # # print(a)

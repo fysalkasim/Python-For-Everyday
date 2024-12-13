@@ -76,4 +76,113 @@
 
 
 
-print("hello world")
+# print("hello world")
+
+
+# year = 20 + 35j
+# print(type(year))
+
+# print(year.imag)
+
+# print("The real part is," , year.real)
+
+# is_raining = None
+
+# print(type(is_raining))
+
+
+#print(), type(),
+
+number_1  = 10
+number_2 = 25
+# print(number_1+number_2)
+# print(number_2-number_1)
+# print(number_1*number_2)
+# print(number_2/number_1)
+# print(number_1**number_2)
+# print(number_2%number_1)
+# print(number_2//number_1)
+
+# print(type(number_2==number_1))
+
+# print(number_2!= number_1)
+
+# print(number_2<number_1)
+
+# print((5*10)==50)
+
+
+# year = 2024
+# print(year)
+
+# year += 5
+# print(year)
+
+
+#logical operators 
+
+#and , or , not
+
+#data type that can have two classes Boolea True and False
+#OR
+# SWITCH01    SWITCH02      RESULT
+# ON           ON           ON
+# ON           OFF          ON
+# OF          ON              ON
+# OF         OF           OF
+# print(True and True)
+
+
+# condition1 = 10<=20 and (4*10) == 40   #resulting data type is boolean
+# condition2 = (20*2)==40 or 50==100   #data type will be boolean
+
+# print(not(condition1) or not(condition2))
+
+
+
+# name = None
+
+# print(bool(name))
+
+
+# login id and password
+# welcome mesage
+# new feeds
+# notification
+# close logout
+
+
+#this is a  comment
+"""thisis first lijne
+this is scenod lien
+thsu us"""
+
+# year = 'aefrfe'
+# print(type(year))
+
+# neyear = int(year)
+# print(type(neyear))
+#print(),type(),input(),bool(),int()
+
+# month = int(input("Enter the current month: "))
+# print("The current month is ", month)
+
+# print(type(month))
+
+# print(month+10)
+
+# thistuple = ("apple",)
+# print(type(thistuple))
+
+
+# thistuple = ("apple", "banana", "cherry")
+# print(thistuple[3])
+
+
+# fruits = ("apple", "banana", "cherry", 200)
+# green, *yellow, blue = fruits
+# print(green)
+# print(yellow)
+
+# # print(red)
+# print(type(blue))
