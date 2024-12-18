@@ -88,3 +88,31 @@
 # }
 # for x,y in thisdict.items():
 #   print(f"{x} have a values of {y}")
+
+
+# thisdict =	{
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# x = thisdict["model"]
+# print(x)
+
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# thisdict.pop("model")
+# print(thisdict)
+
+
+
+# thisdict = {
+#   "brand": "Ford",
+#   "model": "Mustang",
+#   "year": 1964
+# }
+# for x,y in thisdict.items():
+#   print(f"The {x} is having a value of {y}")

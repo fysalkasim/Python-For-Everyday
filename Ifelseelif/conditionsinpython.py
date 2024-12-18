@@ -63,3 +63,43 @@
 #     print("Now the year passed the 2022!!")
 # else:
 #     print("The",year,"is too old")
+
+
+
+
+
+
+
+language = "Python"   #defined a variable named language having a value of Python
+
+#pseudo code comments
+
+#calculator
+
+#input from user
+#Which method (for selection)
+#Result
+#showing the result
+#'5'   >>>>>> 5
+#'python' >>>>>
+
+#print, type,input,int,str,float,complex
+
+# a = 3
+# print(float(a))
+
+# age = int(input("Enter your age: "))
+
+
+# print("Your age in after 5 year will be", age+5)
+
+# number  = int(input("Enter a number: "))
+
+# if number % 8 == 0:
+#     print("divisible by 8")
+#     if number % 4 == 0:
+#         print("divisible by 4")
+#         if number % 2 == 0:
+#             print("divisible by 2")
+# else:
+#     print("You are a child")
