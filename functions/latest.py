@@ -239,3 +239,31 @@ hello()
 #         print(j)
 # # food(a="Apple")
 # food(fruits="Orange", Vagitables="Carrot")
+
+
+# msg = "This is global variable"   #scope = we can access this variabke from anywhere in th file 
+# def calc():
+#     # msg = "Hi all welcome"   #scope= inside the functio only #local variable
+#     print(msg)
+
+# calc()
+
+# print(msg)
+
+
+# def calculate(*args):
+#     global sum
+#     sum=0    #local variabale
+#     for arg in args:
+#         sum = sum +arg
+#     print("The sum is",sum)
+
+# # sum = 1000    #global 
+
+# calculate(10,20,30,40)
+
+# print(sum)
+
+
+# this = [1,2,3,4]
+# print(dir(this))

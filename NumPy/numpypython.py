@@ -305,3 +305,82 @@
 #     for i in names:
 #         print(f"{i} is on the {year}")
 # msg("hridya","fysal",year =2024)
+
+
+
+
+# import numpy as np
+# a = np.array([[30, 40, 70], [80, 20, 10], [50, 90, 60]])
+# print('Our array is:')
+# print(a)
+# print('\n')
+# print('Applying argmax() function:')
+# print(np.argmax(a))
+# print('\n')
+
+# # print('Index of maximum number in flattened array')
+# # print(a.flatten())
+# # print('\n')
+
+# print('Array containing indices of maximum along axis 0:')
+# maxindex = np.argmax(a, axis=0)
+# print(maxindex)
+# print('\n')
+
+# print('Array containing indices of maximum along axis 1:')
+# maxindex = np.argmax(a, axis=1)
+# print(maxindex)
+# print('\n')
+
+# print('Applying argmin() function:')
+# minindex = np.argmin(a)
+# print(minindex)
+# print('\n')
+
+# print('Flattened array:')
+# print(a.flatten()[minindex])
+# print('\n')
+
+# print('Flattened array along axis 0:')
+# minindex = np.argmin(a, axis=0)
+# print(minindex)
+# print('\n')
+
+# print('Flattened array along axis 1:')
+# minindex = np.argmin(a, axis=1)
+# print(minindex)
+
+# import numpy as np
+# x = np.arange(9.).reshape(3, 3)
+
+# print('Our array is:')
+# print(x)
+
+# print('Indices of elements > 3')
+# y = np.where(x > 3)
+# print(y)
+
+# print('Use these indices to get elements satisfying the condition')
+# print(x[y])
+
+# import numpy.matlib
+# import numpy as np
+# print(np.matlib.eye(n=3, M=4, k=0, dtype=float))
+
+
+# import numpy as np
+# a = np.array([1,2])
+# b = np.array([11,12])
+# print("Array a")
+# print(a)
+# print("Array b")
+# print(b)
+# print("Dot product")
+# print(np.dot(a,b))
+
+
+# print(np.allclose(10, 10))
+
+# s1="hai"
+# s=s1 +","+str(25)
+# print(s)
